@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!--   First COlumn     -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <!-- India -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/linIndia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvHIndia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text=":"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvMIndia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvAIndia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="AM"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="India"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15dp" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/india" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Colorado -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/linColorado"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvHColorado"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text=":"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvMColorado"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvAColorado"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="AM"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Colorado"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15dp" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/colorado" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Singapore -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/linSingapore"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvHSingapore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text=":"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvMSingapore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvASingapore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="AM"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Singapore"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15dp" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/shadow_rect"
+                        android:src="@drawable/singapore" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- ==========   Second Row  ============   -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/linTaiwan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvHTaiwan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text=":"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvMTaiwan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvATaiwan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="AM"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Taiwan"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15dp" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/taiwan" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/linHouston"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvHHouston"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text=":"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvMHouston"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvAHouston"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="AM"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Houston"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15dp" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/houston" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/linCzech"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvHCzech"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text=":"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvMCzech"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="00"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/tvACzech"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="AM"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:text="Czech Republic"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15dp" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/shadow_rect"
+                        android:src="@drawable/czech" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_round_red_large"
+        android:fontFamily="@font/montserrat_regular"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Reset Times"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
